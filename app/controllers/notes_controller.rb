@@ -1,5 +1,6 @@
 class NotesController < ApplicationController
-def index
+  
+  def index
     @notes = Note.all
   end
   
